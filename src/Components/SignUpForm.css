@@ -1,0 +1,33 @@
+.hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+.sign-up-button {
+  padding: 1rem;
+  color: whitesmoke;
+  background-color: green;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.sign-up-button:hover {
+  background-color: #528c5b;
+  transition: background-color 0.3s ease;
+}
+
+.login-button {
+  color: whitesmoke;
+  background-color: #ff8c00;
+  border-radius: 4px;
+  border: none;
+  padding: 6px;
+  display: inline;
+  margin-left: 18px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+

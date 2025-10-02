@@ -19,7 +19,7 @@ const SignUpForm = () => {
     try {
       e.preventDefault();
 
-      if (!input.fullName || input.email || input.password) {
+      if (!input.fullName || !input.email || !input.password) {
         setError("Please fill out the empty field");
         return;
       }

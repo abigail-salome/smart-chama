@@ -1,8 +1,11 @@
 import React from 'react'
+import MemberSidebar from '../Components/MemberSidebar'
 
 const MemberDashboard = () => {
   return (
-    <div>MemberDashboard</div>
+    <div>
+      <MemberSidebar />
+    </div>
   )
 }
 
